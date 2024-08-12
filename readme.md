@@ -1,5 +1,7 @@
 # AI Background Remover using `briaai/RMBG-1.4`
 
+By using this, You can separate foreground from background in a range of categories and image types. It save the image image without the background in "Image_without_background" folder and save the masked image in "segemented_image" folder.
+
 [RMBG v1.4](https://huggingface.co/briaai/RMBG-1.4) is an state-of-the-art background removal model, designed to effectively separate foreground from background in a range of categories and image types. This model has been trained on a carefully selected dataset, which includes: general stock images, e-commerce, gaming, and advertising content, making it suitable for commercial use cases powering enterprise content creation at scale. The accuracy, efficiency, and versatility currently rival leading source-available models. It is ideal where content safety, legally licensed datasets, and bias mitigation are paramount.
 
 <div align="center">
