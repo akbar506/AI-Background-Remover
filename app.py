@@ -22,7 +22,7 @@ def AI_Background_Remover(
     pillow_image = pipe(image_path) # applies mask on input and returns a pillow image
 
     # Save the mask
-    pillow_mask.save("segmented_mask.png")
+    pillow_mask.save(os.path.join("segmented_mask", f"{image_name[:-4]}_segmented_mask.png"))
 
     # Save the image
     pillow_image.save(os.path.join(result_image_folder, result_image_name))
@@ -30,9 +30,9 @@ def AI_Background_Remover(
 # To Remove specific images background.
 AI_Background_Remover(
         image_folder="Image_with_background", 
-        image_name="portrait-beautiful-fashion-woman-with-black-makeup-golden-manicure.jpg",
+        image_name="R.jpg",
         result_image_folder="Image_without_background",
-        result_image_name=f"portrait-beautiful-fashion-woman-with-black-makeup-golden-manicure_rm_bg.png"
+        result_image_name=f"R_rm_bg.png"
         )
 
 # To Remove all images background that are save on "Image_with_background" Folder
