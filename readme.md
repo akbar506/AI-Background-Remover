@@ -10,9 +10,9 @@ By using this, You can separate foreground from background in a range of categor
     </a>
 </div>
 
-## NOTE!
+<br>
 
-### The model that we use in this project is developed by [BRIA AI](https://bria.ai/), RMBG v1.4 is available as a source-available model for non-commercial use.
+> **NOTE!** The model that we use in this project is developed by [BRIA AI](https://bria.ai/), RMBG v1.4 is available as a source-available model for non-commercial use.
 
 ### Model Description
 
